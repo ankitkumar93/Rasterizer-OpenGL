@@ -1,0 +1,18 @@
+﻿Build started 11/19/2015 5:41:54 PM.
+     1>Project "C:\Users\akmac\documents\visual studio 2012\Projects\Assignment 3 - CG\StarterProject.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /Iinc\ /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D _CRT_SECURE_NO_WARNINGS /D NDEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"bin\Win32\Release\\" /Fd"bin\Win32\Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt src\main.cpp
+         main.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\Win32\Assignment 3 - CG.exe" /INCREMENTAL:NO /NOLOGO opengl32.lib lib\Win32\SOIL.lib lib\Win32\glfw3.lib lib\Win32\glew32.lib lib\Win32\freeglut.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"bin\Win32\Assignment 3 - CG.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"bin\Win32\Assignment 3 - CG.lib" /MACHINE:X86 /SAFESEH bin\Win32\Release\tiny_obj_loader.obj
+         bin\Win32\Release\main.obj
+     1>SOIL.lib(SOIL.obj) : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:ICF' specification
+     1>LINK : warning LNK4098: defaultlib 'MSVCRTD' conflicts with use of other libs; use /NODEFAULTLIB:library
+         Generating code
+         Finished generating code
+         StarterProject.vcxproj -> C:\Users\akmac\documents\visual studio 2012\Projects\Assignment 3 - CG\bin\Win32\Assignment 3 - CG.exe
+     1>Done Building Project "C:\Users\akmac\documents\visual studio 2012\Projects\Assignment 3 - CG\StarterProject.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.39
